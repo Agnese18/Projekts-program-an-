@@ -1,9 +1,8 @@
 x=int(input("ievadi 1, ja velies aprekinat tikai vienai automasinai CO2 izmaksas, vai ievadi 2 ja vēlies aprekinat 2 automasinam CO2 izmaksas - "))
-sum=0 
-for i in range (x): 
-    a=int(input("ievadi jebkadu skaitli-")) #tiks ievadits skatlis noteiktas reizes
-    if 0<=a<=50 : sum + =a
-        print("jāmaksā 0 euro")
-    elif 51<=a<=95 : sum + =a
+sum=0  
+    a=int(input("ievadi savas automasinas CO2 izmesu daudzumu-")) #tiks ievadits skatlis noteiktas reizes
+    
+
+   
   
 
