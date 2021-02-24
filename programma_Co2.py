@@ -4,6 +4,6 @@ for i in range (x):
     a=int(input("ievadi savas automasinas CO2 izmesu daudzumu-")) #tiks ievadits skatlis noteiktas reizes
     if 0<=a<=50 : sum + =a
         print("jāmaksā 0 euro")
-    elif 51<=a<=95 : sum + =a
+   
   
 
