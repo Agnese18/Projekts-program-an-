@@ -1,8 +1,54 @@
 x=int(input("ievadi 1, ja velies aprekinat tikai vienai automasinai CO2 izmaksas, vai ievadi 2 ja vēlies aprekinat 2 automasinam CO2 izmaksas - "))
-sum=0  
-    a=int(input("ievadi savas automasinas CO2 izmesu daudzumu-")) #tiks ievadits skatlis noteiktas reizes
-    
-
-   
+if x==1 :
+    a=int(input("ievadi savas automasinas co2 daudzumu g/km - "))
+    if 0<=a<=50 : print("jamaksa 0 euro gada")
+    if 51<=a<=95 : print("jamaksa 12 euro gada")
+    if 96<=a<=115 : print("jamaksa 48 euro gada")
+    if 116<=a<=130 : print("jamaksa 84 euro gada")
+    if 131<=a<=155 : print("jamaksa 120 euro gada")
+    if 156<=a<=175 : print("jamaksa 144 euro gada")
+    if 176<=a<=200 : print("jamaksa 168 euro gada")
+    if 201<=a<=250 : print("jamaksa 264 euro gada")
+    if 251<=a<=300 : print("jamaksa 408 euro gada")
+    if 301<=a<=350 : print("jamaksa 552 euro gada")
+    b=int(input("ievadi gada izmaksas euro - "))
+    print("izmaksas menesi ir -", b/12)
+if x==2 : 
+    c=int(input("ievadi automasinas co2 daudzumu nr.1. g/km - "))
+    d=int(input("ievadi automasinas co2 daudzumu nr.2. g/km - "))
+    if 0<=c<=50 : print("jamaksa 0 euro gada")
+    if 51<=c<=95 : print("jamaksa 12 euro gada")
+    if 96<=c<=115 : print("jamaksa 48 euro gada")
+    if 116<=c<=130 : print("jamaksa 84 euro gada")
+    if 131<=c<=155 : print("jamaksa 120 euro gada")
+    if 156<=c<=175 : print("jamaksa 144 euro gada")
+    if 176<=c<=200 : print("jamaksa 168 euro gada")
+    if 201<=c<=250 : print("jamaksa 264 euro gada")
+    if 251<=c<=300 : print("jamaksa 408 euro gada")
+    if 301<=c<=350 : print("jamaksa 552 euro gada")
+    if 0<=d<=50 : print("jamaksa 0 euro gada")
+    if 51<=d<=95 : print("jamaksa 12 euro gada")
+    if 96<=d<=115 : print("jamaksa 48 euro gada")
+    if 116<=d<=130 : print("jamaksa 84 euro gada")
+    if 131<=d<=155 : print("jamaksa 120 euro gada")
+    if 156<=d<=175 : print("jamaksa 144 euro gada")
+    if 176<=d<=200 : print("jamaksa 168 euro gada")
+    if 201<=d<=250 : print("jamaksa 264 euro gada")
+    if 251<=d<=300 : print("jamaksa 408 euro gada")
+    if 301<=d<=350 : print("jamaksa 552 euro gada")
+    e=int(input("ievadi gada izmaksas euro - "))
+    print("izmaksas menesi ir -", e/12)
+    f=int(input("ievadi gada izmaksas euro - "))
+    print("izmaksas menesi ir -", f/12)
+    if e<f : 
+      print("amplitūta gada -",f-e)
+      g=int(input("ievadi izmaksas menesi nr.1 - "))
+      h=int(input("ievadi izmaksas menesi nr.2 - "))
+      print("amplitūta menesi -",h-g)
+    if e>f : 
+        print("amplitūta gada -",e-f)
+        g=int(input("ievadi izmaksas menesi nr.1 - "))
+        h=int(input("ievadi izmaksas menesi nr.2 - "))
+        print("amplitūta menesi -",g-h)
   
 
